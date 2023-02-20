@@ -21,3 +21,4 @@ ISSUES and path I followed:
 2. Secondly I found out when PUT or DELETE request is sent to update task list or delete I am getting 303 status code back and upon some research I found out there needs to be 303 response code set with the redirect after PUT or DELETE per doc here: https://inertiajs.com/redirects#303-response-code but that did not work for me
 3. After more research I went towards the direction of upgrading InertiaJs per github issues discussion here: https://github.com/laravel/jetstream/issues/351 following doc here: https://inertiajs.com/upgrade-guide but that messed up my application :( SORRY!
 Jetstream installed inertia and its middleware automatically, I tried removing the middleware jetstream created and reinstalled inertia middleware `php artisan inertia:middleware` but that messed up things more.
+4. I wish I would have taken a screenshot of functional pages before things got messed up to attach here. Most of my work is in Dashboard.vue file.
